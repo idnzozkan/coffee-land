@@ -1,10 +1,18 @@
-import React from "react"
+import React, { Fragment } from "react"
+import GlobalStyles from "./app/styles"
+import Layout from "./app/layout"
+import Content from "./app/components/Content"
+import Sidebar from "./app/components/Sidebar"
 
 const App = () => {
   return (
-    <div>
-      <h1>Coffee Land</h1>
-    </div>
+    <Fragment>
+      <GlobalStyles />
+      <Layout>
+        <Sidebar />
+        <Content />
+      </Layout>
+    </Fragment>
   )
 }
 
