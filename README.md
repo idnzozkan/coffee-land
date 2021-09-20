@@ -1,6 +1,6 @@
 # CoffeeLand
 
-A simple React.js app that displays some coffee information from a fake database using fake data. It is possible to see filtered results using search and category filters.
+A simple React.js app that displays some coffee information from a fake database using dummy data. It is possible to see filtered results using search and category filters.
 
 ## Installation
 
